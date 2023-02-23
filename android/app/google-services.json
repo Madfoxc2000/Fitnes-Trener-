@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "368867397397",
+    "project_id": "fitnestrener",
+    "storage_bucket": "fitnestrener.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368867397397:android:9d18b7bb46418eeef2e31c",
+        "android_client_info": {
+          "package_name": "com.example.fitnes_trener"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368867397397-dvtq1iv1tgh2b75r5rihpvck6hf703tg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBglPYOsprRKCYq6EqNNKXotdjTzQoXrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368867397397-dvtq1iv1tgh2b75r5rihpvck6hf703tg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
