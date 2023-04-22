@@ -1,4 +1,3 @@
-
 import 'package:fitnes_trener/services/auth/auth_user.dart';
 
 abstract class AuthProvider {

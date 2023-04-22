@@ -1,6 +1,6 @@
+import 'package:flutter/material.dart';
 import 'package:fitnes_trener/constants/routes.dart';
 import 'package:fitnes_trener/services/auth/auth_service.dart';
-import 'package:flutter/material.dart';
 
 class VerifyEmailView extends StatefulWidget {
   const VerifyEmailView({Key? key}) : super(key: key);
@@ -19,14 +19,14 @@ class _VerifyEmailViewState extends State<VerifyEmailView> {
       body: Column(
         children: [
           const Text(
-              "We've sent you an email verification. Please open it to verify your account."),
+              "Poslali smo mail za verifikaciju na vasu adresu , molimo vas da ga potvrdite "),
           const Text(
-              "If you haven't received a verification email yet, press the button below"),
+              "Ukoliko niste primili mail, pritisnite dugme ispod"),
           TextButton(
             onPressed: () async {
               await AuthService.firebase().sendEmailVerification();
             },
-            child: const Text('Send email verification'),
+            child: const Text('Ponovo posalji verifikacioni mail'),
           ),
           TextButton(
             onPressed: () async {
